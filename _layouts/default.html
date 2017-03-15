@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     {% include head.html %}
-
   </head>
-  <body>
 
+  <body>
     <header class="site-header">
       <div class="container">
         {% include header.html %}
@@ -20,9 +18,9 @@
     </section>
 
     <footer class="site-footer">
-      {% include footer.html %}
+      <div class="container">
+        {% include footer.html %}
+      </div>
     </footer>
-
-    <script type="text/javascript" src="{{ site.baseurl }}/js/main.min.js"></script>
   </body>
 </html>
