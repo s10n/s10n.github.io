@@ -1,6 +1,6 @@
 # Project
-title: jekyll-base
-description: Jekyll을 시작하기 위한 템플릿입니다.
+title: s10n.github.io
+description: Front-end engineer
 
 # Author
 author: 심철환
@@ -8,7 +8,6 @@ email: a@akaiv.com
 github_username: s10n
 
 # Configuration
-baseurl: /jekyll-base
 permalink: /:title
 kramdown:
   input: GFM

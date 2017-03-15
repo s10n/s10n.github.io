@@ -1,17 +1,17 @@
 {
-  "name": "jekyll-base",
+  "name": "s10n.github.io",
   "version": "1.0.0",
-  "description": "Jekyll을 시작하기 위한 템플릿입니다.",
+  "description": "Front-end engineer",
   "author": "심철환",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/s10n/jekyll-base.git"
+    "url": "https://github.com/s10n/s10n.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/s10n/jekyll-base/issues"
+    "url": "https://github.com/s10n/s10n.github.io/issues"
   },
-  "homepage": "https://github.com/s10n/jekyll-base#readme",
+  "homepage": "https://github.com/s10n/s10n.github.io#readme",
   "scripts": {
     "install": "grunt build"
   },
