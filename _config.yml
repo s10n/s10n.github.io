@@ -20,10 +20,8 @@ exclude:
   - README.md
   - CNAME
   - package.json
-  - bower.json
   - Gruntfile.js
   - node_modules
-  - assets
 
 sass:
   style: :compressed
