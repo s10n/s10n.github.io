@@ -7,18 +7,62 @@
 @import "vendors/bootstrap";
 @import "vendors/syntax-highlighting";
 
-.container {
-  max-width: 540px;
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.site-header,
+.site-content,
+.site-footer {
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left:  15px;
+  padding-right: 15px;
+
+  @media (min-width: 768px) {
+    padding-left:  150px;
+    padding-right: 150px;
+  }
 }
 
 .site-header {
-  margin-top:    30px;
-  margin-bottom: 30px;
+  padding-top:    15px;
+  padding-bottom: 50px;
+
+  @media (min-width: 768px) {
+  padding-top:    50px;
+  padding-bottom: 50px;
+  }
+
+  a {
+    color: $gray-dark;
+
+    @include hover-focus {
+      color: #000;
+    }
+  }
+
+  .site-description {
+    margin: 0;
+  }
 }
 
 .site-content {
+  padding-bottom: 50px;
+
   h2 {
     font-size: 1.25rem;
-    margin-top: 2.5rem;
+
+    &:not(:first-child) {
+      margin-top: 2.5rem;
+    }
+  }
+
+  p,
+  ul,
+  ol {
+    line-height: 1.75;
+    margin: 0;
   }
 }
